@@ -121,3 +121,9 @@ footer .tm { font-size: 13.5px; opacity: .92; }
   .bar nav a { padding: 8px 9px; font-size: 15px; white-space: nowrap; }
 }
 @media (max-width: 359px) { .bar nav a { padding: 8px 6px; font-size: 14px; } }
+/* Google Play launch 2026-11: the official badge */
+.stores { margin: 18px auto 0; text-align: center; }
+.stores .badge { display: inline-block; line-height: 0; border-radius: 8px; }
+.stores .badge img { width: 174px; height: auto; }
+.stores .badge:focus-visible { outline: 3px solid var(--on-navy, #fff); outline-offset: 3px; }
+.hero .stores, .cta .stores { margin: 20px auto 0; }
