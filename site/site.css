@@ -127,3 +127,17 @@ footer .tm { font-size: 13.5px; opacity: .92; }
 .stores .badge img { width: 174px; height: auto; }
 .stores .badge:focus-visible { outline: 3px solid var(--on-navy, #fff); outline-offset: 3px; }
 .hero .stores, .cta .stores { margin: 20px auto 0; }
+
+/* Out of Room film + iPhone list (2026-11-07) */
+.filmbox { margin: 18px auto 0; max-width: 340px; }
+.filmbox video { display: block; width: 100%; height: auto; border-radius: 22px; background: var(--navy); box-shadow: 0 10px 28px rgba(0,0,0,.25); }
+.filmbox figcaption { font-size: 14px; color: var(--ink-2); text-align: center; margin-top: 10px; }
+.iplist { margin: 22px auto 0; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.18); max-width: 30em; text-align: center; }
+.iplist h3 { font: 700 clamp(19px, 4.4vw, 22px)/1.25 var(--serif); margin: 0; text-wrap: balance; }
+.iplist-sub { font-size: 15px; margin: 8px 0 12px; text-wrap: pretty; }
+.iplist-row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.iplist-row input { flex: 1 1 210px; min-width: 0; min-height: 46px; border-radius: 10px; border: 1px solid var(--line); padding: 0 12px; font: inherit; background: var(--surface); color: var(--ink); }
+.iplist-row .btn { min-height: 46px; }
+#iplist-check { margin-top: 10px; display: flex; justify-content: center; }
+.iplist-msg { min-height: 1.4em; font-size: 14.5px; margin: 8px 0 0; }
+.vh { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
